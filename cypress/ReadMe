@@ -38,3 +38,13 @@ testIsolation: false,
 This code is a configuration file for a Cypress project, which is a JavaScript-based end-to-end testing framework.
 The configuration object defined in this file contains settings that are used to configure various aspects of the testing environment.
 The configuration includes viewport dimensions and test isolation settings.
+
+
+
+support/e2e.js
+
+This is a comment block in our project that provides information about the support/e2e.js file.
+It explains that this file is loaded automatically before test files, and is used for global configurations and behaviors that modify Cypress. 
+The comment also mentions that the supportFile option can be used to configure the location of this file. 
+The code in the block imports the ./commands module and uses Cypress.on to prevent Cypress from failing tests due to uncaught exceptions.
+
