@@ -48,3 +48,8 @@ It explains that this file is loaded automatically before test files, and is use
 The comment also mentions that the supportFile option can be used to configure the location of this file. 
 The code in the block imports the ./commands module and uses Cypress.on to prevent Cypress from failing tests due to uncaught exceptions.
 
+
+How to run the project
+
+1. Open a new terminal
+2. Run command npx cypress open
