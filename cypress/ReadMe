@@ -1,1 +1,10 @@
-Creating ReadMe File
+Cypress Project
+
+Requirements:
+Case Step:
+
+1. Load the page: https://www.wnba.com/standings/
+2. Set the season to 2018
+3. Assert that the number of table records is 12
+4. Iterate over the table and print the team names in column 2 using cypress log API
+
