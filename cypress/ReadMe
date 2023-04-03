@@ -1,5 +1,7 @@
 Cypress Project
 
+The goal of this project is to create an end-to-end automation script using Cypress to test the WNBA Standings page. 
+
 Prerequisite: Install nodejs (environmental settings) and VS code
 
 1. Created a folder
@@ -10,11 +12,29 @@ Prerequisite: Install nodejs (environmental settings) and VS code
 6. Run ‘npx cypress open’
 
 
-Requirements:
-Case Step:
+The script will follow these steps:
 
 1. Load the page: https://www.wnba.com/standings/
 2. Set the season to 2018
 3. Assert that the number of table records is 12
 4. Iterate over the table and print the team names in column 2 using cypress log API
 
+
+cypress.config.js
+
+const { defineConfig } = require("cypress");
+
+module.exports = defineConfig({
+e2e: {
+setupNodeEvents(on, config) {
+// implement node event listeners here
+},
+viewportHeight: 1080,
+viewportWidth: 1920,
+testIsolation: false,
+},
+});
+
+This code is a configuration file for a Cypress project, which is a JavaScript-based end-to-end testing framework.
+The configuration object defined in this file contains settings that are used to configure various aspects of the testing environment.
+The configuration includes viewport dimensions and test isolation settings.
