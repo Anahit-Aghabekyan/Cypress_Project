@@ -1,5 +1,15 @@
 Cypress Project
 
+Prerequisite: Install nodejs (environmental settings) and VS code
+
+1. Created a folder
+2. Open VS Code and open folder
+3. Open terminal in VS Code
+4. Run ‘npm init’
+5. Run ‘npm install cypress --save-dev’
+6. Run ‘npx cypress open’
+
+
 Requirements:
 Case Step:
 
