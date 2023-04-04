@@ -53,3 +53,7 @@ How to run the project
 
 1. Open a new terminal
 2. Run command npx cypress open
+
+
+Result of e2e automation testing 
+<img width="1269" alt="Screenshot of a test result" src="https://user-images.githubusercontent.com/129534156/229652210-b617eacd-892b-44ec-ac8c-95c7ae665e48.png">
